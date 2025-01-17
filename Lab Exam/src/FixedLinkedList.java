@@ -89,7 +89,7 @@ public class FixedLinkedList {
 
         B.add(1);
         B.add(3);
-        B.add(6); // Even element in odd list
+        B.add(6); 
 
         System.out.println("Before fixing:");
         System.out.print("List A: ");
