@@ -85,7 +85,7 @@ public class FixedLinkedList {
 
         A.add(2);
         A.add(4);
-        A.add(7); // Odd element in even list
+        A.add(7); 
 
         B.add(1);
         B.add(3);
