@@ -4,7 +4,6 @@ public class Q04 {
     public static void findMinMaxDifference(int[] arr) {
         Arrays.sort(arr);
 
-        // Minimum difference
         int minDiff = Integer.MAX_VALUE;
         int minPairA = -1, minPairB = -1;
         for (int i = 1; i < arr.length; i++) {
