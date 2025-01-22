@@ -1,5 +1,4 @@
 import java.util.HashMap;
-
 public class Q02 {
     public static void printDuplicates(int[] arr) {
         HashMap<Integer, Integer> countMap = new HashMap<>();
