@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Q04 {
     public static void findMinMaxDifference(int[] arr) {
-        Arrays.sort(arr); // Sort the array first
+        Arrays.sort(arr);
 
         // Minimum difference
         int minDiff = Integer.MAX_VALUE;
