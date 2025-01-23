@@ -14,7 +14,6 @@ public class LinkedList {
 		this.head = null;
 	}
 
-	// 2. Insertion (at any position including start and end)
 	public void insertAtStart(int data) {
 		Node newNode = new Node(data);
 		newNode.next = head;
