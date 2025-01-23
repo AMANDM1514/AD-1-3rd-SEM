@@ -10,8 +10,6 @@ public class LinkedList {
 	}
 
 	private Node head;
-
-	// 1. Create (Initialize empty list)
 	public LinkedList() {
 		this.head = null;
 	}
