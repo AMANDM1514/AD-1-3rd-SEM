@@ -55,7 +55,7 @@ public class LinkedList {
 		temp.next = newNode;
 	}
 
-	// 3. Delete (at any position including start and end)
+	// 3. Delete
 	public void deleteAtStart() {
 		if (head == null) {
 			System.out.println("List is empty.");
