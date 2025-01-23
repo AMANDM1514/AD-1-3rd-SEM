@@ -147,7 +147,7 @@ public class LinkedList {
 		System.out.println("After deletions:");
 		list.traverse();
 
-		// Reverse
+		
 		list.reverse();
 		System.out.println("After reversing:");
 		list.traverse();
