@@ -27,8 +27,7 @@ public class Java_Collections {
             System.out.print(list.get(i)+" ");
         }
         System.out.println();
-        
-        // Sorting the list
+      
         Collections.sort(list);
         System.out.println("List after sorting: " + list);
     }
