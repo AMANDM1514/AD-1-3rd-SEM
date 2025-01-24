@@ -11,8 +11,7 @@ public class Java_Collections {
         
         int element = list.get(0);
         System.out.println("First element: " + element);
-        
-        // Adding elements at specific positions
+       
         list.add(1, 34);
         list.add(0, 60);
         System.out.println("List after adding elements: " + list);
