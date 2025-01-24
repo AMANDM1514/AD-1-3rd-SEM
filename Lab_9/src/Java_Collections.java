@@ -21,8 +21,7 @@ public class Java_Collections {
 
         int size = list.size();
         System.out.println("Size of the list: " + size);
-        
-        // Iterating over the list
+      
         System.out.println("Elements in the list:");
         for (int i = 0; i < list.size(); i++) {
             System.out.print(list.get(i)+" ");
