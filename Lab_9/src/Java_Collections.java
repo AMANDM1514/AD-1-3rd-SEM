@@ -3,7 +3,6 @@ import java.util.Collections;
 
 public class Java_Collections {
     public static void main(String[] args) {
-        // Use java.util.ArrayList for creating a list
         ArrayList<Integer> list = new ArrayList<>();
         
         // Adding elements to the list
