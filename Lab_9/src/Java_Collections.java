@@ -15,8 +15,7 @@ public class Java_Collections {
         list.add(1, 34);
         list.add(0, 60);
         System.out.println("List after adding elements: " + list);
-        
-        // Removing an element
+    
         list.remove(3);
         System.out.println("List after removal: " + list);
         
