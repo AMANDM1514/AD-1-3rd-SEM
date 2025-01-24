@@ -18,8 +18,7 @@ public class Java_Collections {
     
         list.remove(3);
         System.out.println("List after removal: " + list);
-        
-        // Getting the size of the list
+
         int size = list.size();
         System.out.println("Size of the list: " + size);
         
