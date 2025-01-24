@@ -9,7 +9,6 @@ public class Java_Collections {
         list.add(24);
         System.out.println("List: " + list);
         
-        // Accessing an element
         int element = list.get(0);
         System.out.println("First element: " + element);
         
