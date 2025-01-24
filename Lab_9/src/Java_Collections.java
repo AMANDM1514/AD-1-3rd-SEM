@@ -4,8 +4,6 @@ import java.util.Collections;
 public class Java_Collections {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
-        
-        // Adding elements to the list
         list.add(10);
         list.add(89);
         list.add(24);
