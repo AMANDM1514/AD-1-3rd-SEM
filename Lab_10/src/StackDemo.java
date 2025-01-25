@@ -31,7 +31,6 @@ public class StackDemo {
             return poppedData;
         }
 
-        // 3. Peek operation: Returns the top element without removing it
         public int peek() {
             if (top == null) {
                 System.out.println("Stack is empty. Cannot peek.");
