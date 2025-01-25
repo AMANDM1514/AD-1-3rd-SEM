@@ -23,7 +23,7 @@ public class StackDemo {
         public int pop() {
             if (top == null) {
                 System.out.println("Stack is empty. Cannot pop.");
-                return -1; // Indicating an empty stack
+                return -1; 
             }
             int poppedData = top.data;
             top = top.next;
