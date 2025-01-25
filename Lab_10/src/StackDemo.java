@@ -20,8 +20,6 @@ public class StackDemo {
             top = newNode;
             System.out.println("Pushed: " + data);
         }
-
-        // 2. Pop operation: Removes and returns the top element
         public int pop() {
             if (top == null) {
                 System.out.println("Stack is empty. Cannot pop.");
