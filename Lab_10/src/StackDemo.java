@@ -11,7 +11,6 @@ public class StackDemo {
     static class Stack {
         private Node top;
 
-        // Constructor
         public Stack() {
             top = null;
         }
