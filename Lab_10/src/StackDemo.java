@@ -1,5 +1,4 @@
 public class StackDemo {
-    // Node class for stack elements
     static class Node {
         int data;
         Node next;
