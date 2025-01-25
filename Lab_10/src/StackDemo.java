@@ -34,7 +34,7 @@ public class StackDemo {
         public int peek() {
             if (top == null) {
                 System.out.println("Stack is empty. Cannot peek.");
-                return -1; // Indicating an empty stack
+                return -1; 
             }
             return top.data;
         }
