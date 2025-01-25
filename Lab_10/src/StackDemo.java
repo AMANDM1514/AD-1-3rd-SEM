@@ -14,8 +14,6 @@ public class StackDemo {
         public Stack() {
             top = null;
         }
-
-        // 1. Push operation: Adds an element to the stack
         public void push(int data) {
             Node newNode = new Node(data);
             newNode.next = top;
