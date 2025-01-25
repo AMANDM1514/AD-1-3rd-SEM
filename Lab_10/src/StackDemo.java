@@ -8,8 +8,6 @@ public class StackDemo {
             this.next = null;
         }
     }
-
-    // Stack class
     static class Stack {
         private Node top;
 
