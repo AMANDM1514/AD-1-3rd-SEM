@@ -34,7 +34,6 @@ public class QueueDemo {
             int removedData = front.data;
             front = front.next;
 
-            // If the queue becomes empty, set rear to null
             if (front == null) {
                 rear = null;
             }
