@@ -15,8 +15,6 @@ public class QueueDemo {
         public Queue() {
             this.front = this.rear = null;
         }
-
-        // 1. Add operation: Adds an element to the queue
         public void add(int data) {
             Node newNode = new Node(data);
             if (rear == null) {
