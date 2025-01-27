@@ -29,7 +29,7 @@ public class QueueDemo {
         public int remove() {
             if (front == null) {
                 System.out.println("Queue is empty. Cannot remove.");
-                return -1; // Indicating an empty queue
+                return -1;
             }
             int removedData = front.data;
             front = front.next;
