@@ -12,7 +12,6 @@ public class QueueDemo {
     static class Queue {
         private Node front, rear;
 
-        // Constructor
         public Queue() {
             this.front = this.rear = null;
         }
