@@ -9,7 +9,6 @@ public class QueueDemo {
         }
     }
 
-    // Queue class
     static class Queue {
         private Node front, rear;
 
