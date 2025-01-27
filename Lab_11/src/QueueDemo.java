@@ -41,7 +41,6 @@ public class QueueDemo {
             return removedData;
         }
 
-        // 3. Peek operation: Returns the front element without removing it
         public int peek() {
             if (front == null) {
                 System.out.println("Queue is empty. Cannot peek.");
