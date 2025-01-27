@@ -1,5 +1,4 @@
 public class QueueDemo {
-    // Node class for queue elements
     static class Node {
         int data;
         Node next;
