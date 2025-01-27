@@ -26,8 +26,6 @@ public class QueueDemo {
             rear = newNode;
             System.out.println("Added: " + data);
         }
-
-        // 2. Remove operation: Removes and returns the front element
         public int remove() {
             if (front == null) {
                 System.out.println("Queue is empty. Cannot remove.");
