@@ -44,7 +44,7 @@ public class QueueDemo {
         public int peek() {
             if (front == null) {
                 System.out.println("Queue is empty. Cannot peek.");
-                return -1; // Indicating an empty queue
+                return -1;
             }
             return front.data;
         }
