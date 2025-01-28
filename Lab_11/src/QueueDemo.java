@@ -88,7 +88,6 @@ public class QueueDemo {
 
         queue.remove();
 
-        // Attempt to remove or peek on an empty queue
         queue.remove();
         queue.peek();
     }
