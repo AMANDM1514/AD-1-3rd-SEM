@@ -54,7 +54,6 @@ public class QueueDemo {
             return front == null;
         }
 
-        // Display the queue contents
         public void display() {
             if (front == null) {
                 System.out.println("Queue is empty.");
