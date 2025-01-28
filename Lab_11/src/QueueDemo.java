@@ -80,7 +80,6 @@ public class QueueDemo {
         queue.remove();
         queue.display();
         System.out.println("Peeked: " + queue.peek());
-
         queue.remove();
 
         queue.remove();
