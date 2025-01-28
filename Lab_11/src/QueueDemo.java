@@ -49,7 +49,7 @@ public class QueueDemo {
             return front.data;
         }
 
-        // Check if the queue is empty
+
         public boolean isEmpty() {
             return front == null;
         }
