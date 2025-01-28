@@ -76,7 +76,6 @@ public class QueueDemo {
         queue.add(30);
         queue.display();
         System.out.println("Peeked: " + queue.peek());
-
         queue.remove();
         queue.remove();
 
