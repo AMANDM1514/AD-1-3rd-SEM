@@ -30,7 +30,6 @@ public class StackDemo {
             System.out.println("Popped: " + poppedData);
             return poppedData;
         }
-
         public int peek() {
             if (top == null) {
                 System.out.println("Stack is empty. Cannot peek.");
