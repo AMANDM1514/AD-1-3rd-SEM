@@ -40,8 +40,6 @@ public class StackDemo {
         public boolean isEmpty() {
             return top == null;
         }
-
-
         public void display() {
             if (top == null) {
                 System.out.println("Stack is empty.");
