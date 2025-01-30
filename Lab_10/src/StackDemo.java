@@ -69,7 +69,6 @@ public class StackDemo {
         stack.display();
 
         System.out.println("Peeked: " + stack.peek());
-
         stack.pop();
 
 
