@@ -57,7 +57,7 @@ public class StackDemo {
     public static void main(String[] args) {
         Stack stack = new Stack();
 
-        // Test the stack operations
+
         stack.push(10);
         stack.push(20);
         stack.push(30);
