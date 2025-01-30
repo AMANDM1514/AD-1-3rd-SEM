@@ -73,7 +73,7 @@ public class StackDemo {
 
         stack.pop();
 
-        // Attempt to pop or peek on an empty stack
+
         stack.pop();
         stack.peek();
     }
