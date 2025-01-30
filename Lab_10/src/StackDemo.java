@@ -54,7 +54,6 @@ public class StackDemo {
             System.out.println();
         }
     }
-
     public static void main(String[] args) {
         Stack stack = new Stack();
 
