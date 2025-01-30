@@ -41,7 +41,7 @@ public class StackDemo {
             return top == null;
         }
 
-        // Display the stack contents
+
         public void display() {
             if (top == null) {
                 System.out.println("Stack is empty.");
