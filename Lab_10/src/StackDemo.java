@@ -37,7 +37,6 @@ public class StackDemo {
             }
             return top.data;
         }
-
         public boolean isEmpty() {
             return top == null;
         }
