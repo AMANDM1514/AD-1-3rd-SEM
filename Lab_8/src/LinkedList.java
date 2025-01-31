@@ -8,7 +8,6 @@ public class LinkedList {
 			this.next = null;
 		}
 	}
-
 	private Node head;
 	public LinkedList() {
 		this.head = null;
