@@ -92,7 +92,7 @@ public class LinkedList {
 		temp.next = temp.next.next;
 	}
 
-	// 4. Traversal
+
 	public void traverse() {
 		if (head == null) {
 			System.out.println("List is empty.");
