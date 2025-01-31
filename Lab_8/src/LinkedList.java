@@ -103,8 +103,6 @@ public class LinkedList {
 		}
 		System.out.println("null");
 	}
-
-	// 5. Reverse
 	public void reverse() {
 		Node prev = null;
 		Node current = head;
