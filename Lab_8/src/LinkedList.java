@@ -29,7 +29,6 @@ public class LinkedList {
 		}
 		temp.next = newNode;
 	}
-
 	public void insertAtPosition(int data, int position) {
 		if (position < 1) {
 			System.out.println("Position should be 1 or greater.");
