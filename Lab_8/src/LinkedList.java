@@ -72,7 +72,6 @@ public class LinkedList {
 		}
 		temp.next = null;
 	}
-
 	public void deleteAtPosition(int position) {
 		if (position < 1) {
 			System.out.println("Position should be 1 or greater.");
