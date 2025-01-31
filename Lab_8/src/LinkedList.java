@@ -13,7 +13,6 @@ public class LinkedList {
 	public LinkedList() {
 		this.head = null;
 	}
-
 	public void insertAtStart(int data) {
 		Node newNode = new Node(data);
 		newNode.next = head;
