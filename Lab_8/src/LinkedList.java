@@ -17,7 +17,6 @@ public class LinkedList {
 		newNode.next = head;
 		head = newNode;
 	}
-
 	public void insertAtEnd(int data) {
 		Node newNode = new Node(data);
 		if (head == null) {
