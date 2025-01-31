@@ -63,7 +63,6 @@ public class LinkedList {
 		}
 		head = head.next;
 	}
-
 	public void deleteAtEnd() {
 		if (head == null) {
 			System.out.println("List is empty.");
