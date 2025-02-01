@@ -14,7 +14,6 @@ public class Q02 {
                 hasDuplicates = true;
             }
         }
-
         if (!hasDuplicates) {
             System.out.println("No duplicates found");
         }
