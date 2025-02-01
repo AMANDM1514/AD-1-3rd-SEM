@@ -6,7 +6,7 @@ public class Q01 {
 
         for (int num : arr) {
             if (seen.contains(num)) {
-                return num; // First repeated element
+                return num;
             }
             seen.add(num);
         }
