@@ -14,8 +14,6 @@ public class Q04 {
                 minPairB = arr[i];
             }
         }
-
-        // Maximum difference
         int maxDiff = arr[arr.length - 1] - arr[0];
         int maxPairA = arr[0];
         int maxPairB = arr[arr.length - 1];
