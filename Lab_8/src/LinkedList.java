@@ -128,7 +128,6 @@ public class LinkedList {
 		System.out.println("After insertions:");
 		list.traverse();
 
-		// Deletion
 		list.deleteAtStart();
 		list.deleteAtEnd();
 		list.deleteAtPosition(2);
