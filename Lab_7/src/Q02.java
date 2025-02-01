@@ -6,7 +6,6 @@ public class Q02 {
         for (int num : arr) {
             countMap.put(num, countMap.getOrDefault(num, 0) + 1);
         }
-
         boolean hasDuplicates = false;
         System.out.println("Duplicates in the list:");
         for (int key : countMap.keySet()) {
