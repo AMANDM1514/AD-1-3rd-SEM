@@ -9,7 +9,6 @@ public class Q03 {
 
         return totalSum - arraySum;
     }
-
     public static void main(String[] args) {
         int[] arr = {1, 2, 4, 6, 3, 7, 8};
         int n = 8;
